@@ -12,14 +12,14 @@ def get_file_paths(data):
 
 def write_file():
     #Create the csv file and write the header of the file
-    header = ['artist', 'first_name', 'gender', 'item_number', 'last_name', 'length', 
+    header = ['artist', 'first_name', 'gender', 'itemInSession', 'last_name', 'length', 
     'level', 'location', 'sessionId', 'song_title', 'userId']
     with open("new_events_data.csv", 'w') as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(header)
 
 
-def read_file(files_list):
+def read_write_file(files_list):
     #Read through the list of file paths and write into the new csv file
     for file in files_list:
         df = pd.read_csv(file)
@@ -30,10 +30,3 @@ def read_file(files_list):
                 csv_writer = csv.writer(csvfile)
                 csv_writer.writerow(row_list)
 
-
-def main():
-    files_list = get_file_paths('event_data')
-    write_file()
-    read_file(files_list)
-
-main()
