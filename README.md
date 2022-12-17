@@ -14,6 +14,6 @@ I transfered the  data from a set of CSV files within the `event_data` directory
 
 ## Files
 * `event_data` directory contains the dataset from sparkify
-* `new_events_data.csv`: Streamlined CSV file with all the data from the events data directory
-* `process_data.py`:extracts and transforms the data to streamline the etl pipeline creation
-* `cassandra_etl.ipynb`: data pipeline to create and load data into cassandra tables
+* `new_events_data.csv` Streamlined CSV file with all the data from the events data directory
+* `process_data.py` extracts and transforms the data to streamline the etl pipeline creation
+* `cassandra_etl.ipynb` data pipeline to create and load data into cassandra tables
