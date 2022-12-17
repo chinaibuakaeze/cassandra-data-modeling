@@ -1,4 +1,4 @@
-artist,first_name,gender,item_number,last_name,length,level,location,sessionId,song_title,userId
+artist,first_name,gender,itemInSession,last_name,length,level,location,sessionId,song_title,userId
 Harmonia,Ryan,M,0,Smith,655.77751,free,"San Jose-Sunnyvale-Santa Clara, CA",583,Sehr kosmisch,26.0
 The Prodigy,Ryan,M,1,Smith,260.07465,free,"San Jose-Sunnyvale-Santa Clara, CA",583,The Big Gundown,26.0
 Train,Ryan,M,2,Smith,205.45261,free,"San Jose-Sunnyvale-Santa Clara, CA",583,Marry Me,26.0
